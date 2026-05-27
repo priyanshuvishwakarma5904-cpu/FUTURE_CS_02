@@ -1,0 +1,63 @@
+
+; <<>> DiG 9.20.22-1-Debian <<>> TXT attacker.example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37352
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+; COOKIE: 9e7b646edfbd9ba1010000006a118db5ee4d47c21afd546f (good)
+;; QUESTION SECTION:
+;attacker.example.com.		IN	TXT
+
+;; AUTHORITY SECTION:
+example.com.		5	IN	SOA	elliott.ns.cloudflare.com. dns.cloudflare.com. 2403488901 10000 2400 604800 1800
+
+;; Query time: 19 msec
+;; SERVER: 192.168.64.2#53(192.168.64.2) (UDP)
+;; WHEN: Sat May 23 07:21:25 EDT 2026
+;; MSG SIZE  rcvd: 156
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> TXT _dmarc.attacker.example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53105
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+; COOKIE: 5327fb86305540e0010000006a118dde2760c0f39c38d38d (good)
+;; QUESTION SECTION:
+;_dmarc.attacker.example.com.	IN	TXT
+
+;; AUTHORITY SECTION:
+example.com.		5	IN	SOA	elliott.ns.cloudflare.com. dns.cloudflare.com. 2403488901 10000 2400 604800 1800
+
+;; Query time: 23 msec
+;; SERVER: 192.168.64.2#53(192.168.64.2) (UDP)
+;; WHEN: Sat May 23 07:22:05 EDT 2026
+;; MSG SIZE  rcvd: 174
+
+
+; <<>> DiG 9.20.22-1-Debian <<>> MX attacker.example.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52808
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+; COOKIE: b7078a0a7302251f010000006a118e046cfd76a8231f7d3f (good)
+;; QUESTION SECTION:
+;attacker.example.com.		IN	MX
+
+;; AUTHORITY SECTION:
+example.com.		5	IN	SOA	elliott.ns.cloudflare.com. dns.cloudflare.com. 2403488901 10000 2400 604800 1800
+
+;; Query time: 50 msec
+;; SERVER: 192.168.64.2#53(192.168.64.2) (UDP)
+;; WHEN: Sat May 23 07:22:44 EDT 2026
+;; MSG SIZE  rcvd: 156
+

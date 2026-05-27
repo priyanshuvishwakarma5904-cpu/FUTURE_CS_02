@@ -1,0 +1,17 @@
+=== PHISHING INDICATORS CHECKLIST - SAMPLE 1 ===
+Subject: Monday, March 7 2022
+Pretending to be: MetroFax / SharePoint
+
+[✔] 1. Spoofed/fake sender domain   → attack@attacker.example.com
+[✔] 2. Brand impersonation          → Pretends to be MetroFax & SharePoint
+[✔] 3. Generic greeting             → No recipient name used
+[✔] 4. Suspicious/malicious URL     → https://attacker.example.com/
+[✔] 5. Mismatched identity          → Claims MetroFax but NHSmail footer
+[✔] 6. To: Undisclosed recipients   → Mass phishing email
+[✗] 7. Urgency/fear language        → Not strongly present
+[✗] 8. Spelling/grammar errors      → Not present
+[✗] 9. Unexpected attachment        → No attachment
+[✔] 10. Credential/action request   → "Click attachment to view"
+
+TOTAL INDICATORS: 7/10
+RISK CLASSIFICATION: 🚨 PHISHING

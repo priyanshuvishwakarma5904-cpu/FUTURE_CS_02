@@ -1,0 +1,17 @@
+=== PHISHING INDICATORS CHECKLIST - SAMPLE 2 ===
+Subject: Voice Message-Access for Clients.Pass-Key-Exception
+Pretending to be: Internal voicemail notification system
+
+[✔] 1. SPF authentication FAILED    → sender IP 192.0.2.1 not authorized
+[✔] 2. DKIM not signed              → dkim=none, message not signed
+[✔] 3. DMARC failed                 → dmarc=fail action=oreject
+[✔] 4. Suspicious subject line      → "Pass-Key-Exception" is not normal
+[✔] 5. Unicode character tricks     → &#959; &#8288; used to bypass spam filters
+[✔] 6. Malicious attachment         → "Download file to listen to voicemail"
+[✔] 7. Fake voicemail lure          → Classic social engineering technique
+[✔] 8. Placeholder in body          → <DATE> tag left unfilled (sloppy attacker)
+[✔] 9. External image tracker       → sendgrid CDN image used for tracking opens
+[✗] 10. Urgency/fear language       → Not strongly present
+
+TOTAL INDICATORS: 9/10
+RISK CLASSIFICATION:  PHISHING

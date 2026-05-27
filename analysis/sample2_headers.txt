@@ -1,0 +1,8 @@
+Authentication-Results: spf=fail (sender IP is 192.0.2.1)
+Received-SPF: Fail (protection.outlook.com: domain of target.example.com does
+From: "target.example.com" <noreply@target.example.com>
+To: john.doe@target.example.com
+Subject: target.example.com :- (Voice Message-Access for
+Message-ID: <8b14d0ea@target.example.com>
+Date: Fri, 04 Mar 2022 14:28:18 +0000
+Return-Path: noreply@target.example.com

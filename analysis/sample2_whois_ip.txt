@@ -1,0 +1,68 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       192.0.2.0 - 192.0.2.255
+CIDR:           192.0.2.0/24
+NetName:        TEST-NET-1
+NetHandle:      NET-192-0-2-0-1
+Parent:         NET192 (NET-192-0-0-0-0)
+NetType:        IANA Special Use
+OriginAS:       
+Organization:   Internet Assigned Numbers Authority (IANA)
+RegDate:        2009-06-29
+Updated:        2024-05-24
+Comment:        Addresses starting with "192.0.2.", "198.51.100.", or "203.0.113." are reserved for use in documentation and sample configurations.  They     should never be used in a live network configuration.  No one has permission to use these addresses on the Internet.
+Comment:        
+Comment:        Network operators should add these address blocks to the list of non-routable address space, and if packet filters are deployed, then these address blocks should be added to packet filters.  These blocks are not for local use, and the filters may be used in both local and public contexts.
+Comment:        
+Comment:        These addresses are assigned by the IETF, the organization that develops Internet protocols, in the Informational document RFC 5737, which can be found at:
+Comment:        http://datatracker.ietf.org/doc/rfc5737
+Ref:            https://rdap.arin.net/registry/ip/192.0.2.0
+
+
+
+OrgName:        Internet Assigned Numbers Authority
+OrgId:          IANA
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+PostalCode:     90292
+Country:        US
+RegDate:        
+Updated:        2024-05-24
+Ref:            https://rdap.arin.net/registry/entity/IANA
+
+
+OrgTechHandle: IANA-IP-ARIN
+OrgTechName:   ICANN
+OrgTechPhone:  +1-310-301-5820 
+OrgTechEmail:  abuse@iana.org
+OrgTechRef:    https://rdap.arin.net/registry/entity/IANA-IP-ARIN
+
+OrgAbuseHandle: IANA-IP-ARIN
+OrgAbuseName:   ICANN
+OrgAbusePhone:  +1-310-301-5820 
+OrgAbuseEmail:  abuse@iana.org
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/IANA-IP-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2026, American Registry for Internet Numbers, Ltd.
+#
+
